@@ -1,3 +1,5 @@
+// JMP TechLive, by @xbluecode
+
 #include <stdio.h>
 
 void func();
