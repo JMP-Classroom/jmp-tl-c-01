@@ -10,7 +10,7 @@ void test_for()
   printf("Enter an integer (max): ");
   scanf("%d", &m);
 
-  for (i = 1; i < m; ++i)
+  for (i = 1; i <= m; i = i + 2) // i = i + 2
   {
     printf("%d ", i);
   }

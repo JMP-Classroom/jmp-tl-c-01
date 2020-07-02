@@ -17,11 +17,15 @@ Write the following functions.
 
     It calculates the value of **n-th** element of a geometric sequence, where **u0** is the initial element and **d** is thte common difference.
 
+    `U(n+1) = U(n) + d`, `U(0) = 3`, `d=2`, `U(1) = 5`
+
     *DON'T use the simplified formula, unless for testing.*
 
 - `int seq_geometric(int u0, int r, int n)`
 
     It calculates the value of **n-th** element of a geometric sequence, where **u0** is the initial element and **r** is the common ratio.
+
+    `U(n+1) = r.U(n)`
 
     *DON'T use the simplified formula, unless for testing.*
 
@@ -34,6 +38,8 @@ Write the following functions.
     It displays the Fibonacci sequence of first n numbers.
 
     *The Fibonacci sequence is a sequence where the next term is the sum of the previous two terms. The first two terms of the Fibonacci sequence are `0` followed by `1`.*
+
+    `U(n) = U(n - 1) + U(n - 2)`, `U(0) = 1`, `U(1) = 1`
 
     *DON'T use the simplified formula, unless for testing.*
 

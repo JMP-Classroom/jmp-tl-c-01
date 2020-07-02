@@ -46,10 +46,10 @@ void test_elseif()
     scanf("%d", &number);
 
     // true if number is bigger than 0
-    if (number >= 0) {
+    if (number > 0) {
         printf("You entered a positive %d.\n", number);
     }
-    else if
+    else if (number == 0)
     {
         printf("You entered a zero %d.\n", number);
     }
@@ -64,5 +64,7 @@ void test_elseif()
 // =============================================================================
 int     main()
 {
-    test_if();
+    // test_if();
+    // test_ifelse();
+    test_elseif();
 }

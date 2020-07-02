@@ -11,10 +11,10 @@ void test_while()
   scanf("%d", &m);
 
   i = 1;
-  while (i < m) // inc
+  while (i <= m) // inc
   {
-    printf("%d ", i);
-    i++;
+    printf("%d ", i++);
+    // i++; // i = i + 1
   }
   printf("\nI'm out !\n");
 }
@@ -34,13 +34,13 @@ void test_dowhile()
     printf("%d ", i);
     i++;
   }
-  while (i < m);
+  while (i <= m);
   printf("\nI'm out !\n");
 }
 
 // =============================================================================
 int main()
 {
-    // test_while();
-    test_dowhile();
+    test_while();
+    // test_dowhile();
 }

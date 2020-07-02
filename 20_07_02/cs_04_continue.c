@@ -6,7 +6,7 @@ int main()
 {
     int number, sum = 0;
 
-    for(int i=0; i < 5; ++i)
+    for(int i=0; i < 10; ++i)
     {
         printf("Enter a n%d: ",i);
         scanf("%d",&number);
