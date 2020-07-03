@@ -43,6 +43,12 @@ Write the following functions.
 
     *DON'T use the simplified formula, unless for testing.*
 
+- `int pow_int(int n, int p)`
+
+    It calculates the power of the number `n` using a loop.
+    
+    **ie**: `pow(2, 3) ---> 2*2*2 = 8`
+
 - `int hcf(int a, int b)`
 
     It calculates **HCF** (**PGCD**) of two integers (for both positive and negative integers).
@@ -71,3 +77,111 @@ Write the following functions.
 
     It checks whether an integer `n` is an Armstrong number or not. it returns `1` if it's Armstrong number and `0` otherwise.
 
+- `is_prime(int n)`
+
+    It checks whether a number is Prime number or not. it returns `1` if `n` is prime, and `0` otherwise.
+
+- `int bin_to_dec(int n)`
+
+    It finds the decimal value of an integer representing a binary number.
+    **ie**: `bin_to_dec(110) ---> 6`
+
+- `int oct_to_dec(int n)`
+
+    It finds the decimal value of an integer representing a octal number.
+    **ie**: `bin_to_dec(12) ---> 10`
+
+- `void tri_pascal(int n)`
+
+    It prints pascal triangle up to n rows using loop.
+
+    ```n = 5
+    =========
+        1
+       1 1
+      1 2 1
+     1 3 3 1
+    1 4 6 4 1
+    ```
+
+- Write a program to draw the following star patterns, each pattern must be implemented in a separate function, and the main function must provide a menu to let the user choose which pattern to draw with the possibility to exit the menu.
+
+    Pattern 1
+    ```
+    *****
+    *****
+    *****
+    *****
+    *****
+    ```
+
+    Pattern 2
+    ```
+    *****
+    *   *
+    *   *
+    *   *
+    *****
+    ```
+
+    Pattern 3
+    ```
+    *
+    **
+    ***
+    ****
+    *****
+    ```
+
+    Pattern 4
+    ```
+    *
+    **
+    * *
+    *  *
+    *****
+    ```
+
+    Pattern 5
+    ```
+        *
+       ***
+      *****
+     *******
+    *********
+    ```
+
+    Pattern 6
+    ```
+        *
+       * *
+      *   *
+     *     *
+    *********
+    ```
+
+    Pattern 7
+    ```
+        *
+       ***
+      *****
+     *******
+    *********
+     *******
+      *****
+       ***
+        *
+    ```
+
+    Pattern 8
+    ```
+    *       *
+     *     *
+      *   *
+       * *
+        *
+       * *
+      *   *
+     *     *
+    *       *
+    ```
