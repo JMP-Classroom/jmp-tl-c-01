@@ -11,7 +11,7 @@ Write the following functions.
 
     It checks if a given year is leap or not, it returns `1` if it's leap and `0` if not.
 
-    Info: *A leap year is exactly divisible by 4 except for century years (years ending with 00). The century year is a leap year only if it is perfectly divisible by 400*.
+>A leap year is exactly divisible by 4 except for century years (years ending with 00). The century year is a leap year only if it is perfectly divisible by 400.
 
 - `int seq_arith(int u0, int d, int n)`
 
@@ -19,7 +19,7 @@ Write the following functions.
 
     `U(n+1) = U(n) + d`, `U(0) = 3`, `d=2`, `U(1) = 5`
 
-    *DON'T use the simplified formula, unless for testing.*
+    :no_entry: *DON'T use the simplified formula, unless for testing.*
 
 - `int seq_geometric(int u0, int r, int n)`
 
@@ -27,7 +27,7 @@ Write the following functions.
 
     `U(n+1) = r.U(n)`
 
-    *DON'T use the simplified formula, unless for testing.*
+    :no_entry: *DON'T use the simplified formula, unless for testing.*
 
 - `int fact(int n)`
 
@@ -41,7 +41,7 @@ Write the following functions.
 
     `U(n) = U(n - 1) + U(n - 2)`, `U(0) = 1`, `U(1) = 1`
 
-    *DON'T use the simplified formula, unless for testing.*
+    :no_entry: *DON'T use the simplified formula, unless for testing.*
 
 - `int pow_int(int n, int p)`
 
@@ -53,13 +53,13 @@ Write the following functions.
 
     It calculates **HCF** (**PGCD**) of two integers (for both positive and negative integers).
 
-    *DON'T use the simplified formula, unless for testing.*
+    :no_entry: *DON'T use the simplified formula, unless for testing.*
 
 - `int lcm(int a, int b)`
 
     It calculate the **LCM** (*Lowest common multiple*) of two numbers.
 
-    *DON'T use the simplified formula, unless for testing.*
+    :no_entry: *DON'T use the simplified formula, unless for testing.*
 
 - `int n_digits(long long int n)`
 
