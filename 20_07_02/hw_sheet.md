@@ -135,6 +135,8 @@ Write the following functions.
     1 4 6 4 1
     ```
 
+-----
+
 - Write a program to draw the following star patterns, each pattern must be implemented in a separate function, and the main function must provide a menu to let the user choose which pattern to draw with the possibility to exit the menu.
 
     Pattern 1
