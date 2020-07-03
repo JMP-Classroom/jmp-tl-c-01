@@ -95,7 +95,8 @@ Write the following functions.
 
     It prints pascal triangle up to n rows using loop.
 
-    ```n = 5
+    ```c
+    n = 5
     =========
         1
        1 1
@@ -107,7 +108,8 @@ Write the following functions.
 - Write a program to draw the following star patterns, each pattern must be implemented in a separate function, and the main function must provide a menu to let the user choose which pattern to draw with the possibility to exit the menu.
 
     Pattern 1
-    ```
+
+    ```c
     *****
     *****
     *****
@@ -116,7 +118,8 @@ Write the following functions.
     ```
 
     Pattern 2
-    ```
+
+    ```c
     *****
     *   *
     *   *
@@ -125,7 +128,8 @@ Write the following functions.
     ```
 
     Pattern 3
-    ```
+
+    ```c
     *
     **
     ***
@@ -134,7 +138,8 @@ Write the following functions.
     ```
 
     Pattern 4
-    ```
+
+    ```c
     *
     **
     * *
@@ -143,7 +148,8 @@ Write the following functions.
     ```
 
     Pattern 5
-    ```
+
+    ```c
         *
        ***
       *****
@@ -152,7 +158,8 @@ Write the following functions.
     ```
 
     Pattern 6
-    ```
+
+    ```c
         *
        * *
       *   *
@@ -161,7 +168,8 @@ Write the following functions.
     ```
 
     Pattern 7
-    ```
+
+    ```c
         *
        ***
       *****
@@ -174,7 +182,8 @@ Write the following functions.
     ```
 
     Pattern 8
-    ```
+
+    ```c
     *       *
      *     *
       *   *
