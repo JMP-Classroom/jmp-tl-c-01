@@ -11,7 +11,7 @@ Write the following functions.
 
     It checks if a given year is leap or not, it returns `1` if it's leap and `0` if not.
 
->A leap year is exactly divisible by 4 except for century years (years ending with 00). The century year is a leap year only if it is perfectly divisible by 400.
+    >A leap year is exactly divisible by 4 except for century years (years ending with 00). The century year is a leap year only if it is perfectly divisible by 400.
 
 -----
 
@@ -45,7 +45,7 @@ Write the following functions.
 
     It displays the Fibonacci sequence of first n numbers.
 
-    *The Fibonacci sequence is a sequence where the next term is the sum of the previous two terms. The first two terms of the Fibonacci sequence are `0` followed by `1`.*
+    >The Fibonacci sequence is a sequence where the next term is the sum of the previous two terms. The first two terms of the Fibonacci sequence are `0` followed by `1`.
 
     `U(n) = U(n - 1) + U(n - 2)`, `U(0) = 1`, `U(1) = 1`
 
