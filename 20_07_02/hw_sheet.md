@@ -121,6 +121,55 @@ Write the following functions.
 
 -----
 
+- Give the output of the following programs without compiling and executing.
+
+    - Program 01
+    ```
+        int a, b;
+
+        int main()
+        {
+            int c, d = 5;
+
+            c = ++a - b++;
+            a += c++ - b;
+            b -= c - a;
+            d = a + b-- + --c;
+            print("%d, %d, %d, %d", a, b, c, d);
+        }
+    ```
+
+    - Program 02
+    ```
+        int g;
+
+        int do_something(int x, y, z)
+        {
+            int v;
+
+            v = x-- + --g;
+            v = ++x + y - z--;
+            v += 2 * x + 3 * (y-- + 1) + ++z;
+            return (v++);
+        }
+
+        int main()
+        {
+            int a = 1, b= 2, c, d = 5;
+
+            c = ++a - b++ + g--;
+            do_something(a, b, c);
+            a += c++ - b;
+            do_something(d, a, c--);
+            b -= c - a;
+            do_something(g--, ++b, c += a--);
+            d = a + b-- + --c;
+            print("%d, %d, %d, %d", a, b, c, d);
+        }
+    ```
+
+-----
+
 - `void tri_pascal(int n)`
 
     It prints pascal triangle up to n rows using loop.
