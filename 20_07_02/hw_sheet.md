@@ -164,7 +164,7 @@ Write the following functions.
             b -= c - a;
             do_something(g--, ++b, c += a--);
             d = a + b-- + --c;
-            print("%d, %d, %d, %d", a, b, c, d);
+            print("%d, %d, %d, %d, %d", a, b, c, d, g);
         }
     ```
 
