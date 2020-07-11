@@ -10,5 +10,6 @@ PS: This repo doesn't contain complete programs, it can be helpful in case you'r
 ### File Prefixes
 - Code Snippet (**cs**)
 - Homework (**hw**)
+- Quiz (**qz**)
 ----
 by [@xBlueCode](https://github.com/xBlueCode).
