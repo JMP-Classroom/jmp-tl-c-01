@@ -1,6 +1,6 @@
 // JMP TechLive, by @xbluecode
 
-// Local Variables
+// Global Variables
 
 /*
 - Variables that are declared outside of all functions
@@ -25,5 +25,5 @@ int main()
 void display()
 {
     ++n;   
-    printf("n = %d", n);
+    printf("n = %d\n", n);
 }

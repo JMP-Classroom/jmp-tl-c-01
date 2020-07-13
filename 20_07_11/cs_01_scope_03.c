@@ -1,7 +1,7 @@
 
 // JMP TechLive, by @xbluecode
 
-// Local Variables
+// Register Variables
 
 /*
 - The register keyword is used to declare register variables.

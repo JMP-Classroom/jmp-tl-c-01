@@ -26,9 +26,8 @@ void test2()
     int i = 1;
 
     if (g || ++i)
-        i += ++i;
+        i += ++i; // i = i + 1; i = i + i
     printf("%d, %d\n", g, i);
-    
 }
 
 void test3()
@@ -46,7 +45,7 @@ void test4()
 {
     printf("=== Test 4 ===\n");
 
-    int i = 1;
+    int i = 0;
 
     if (g || i--)
         i += ++i;

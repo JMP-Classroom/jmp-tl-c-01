@@ -1,6 +1,6 @@
 // JMP TechLive, by @xbluecode
 
-// Local Variables
+// Static Variables
 
 /*
 - The value of a static variable persists until
@@ -25,12 +25,12 @@ void display()
 {
     int c = 1;
     c += 5;
-    printf("local c: %d  ",c);
+    printf("local c: %d  \n", c);
 }
 
 void display_static()
 {
     static int c = 1;
     c += 5;
-    printf("static c: %d  ",c);
+    printf("static c: %d  \n",c);
 }
