@@ -3,7 +3,7 @@
 
 **Individual Deadline:** *Wen 15th 07 2020 - at 11:59*.
 
-**Teamwork Deadline:** *Thu 16th 07 2020 - at 23:59*.
+**Teamwork Deadline:** *Wen 15th 07 2020 - at 23:59*.
 
 **PS**: You should provide a test program which include the `main` function to test your functions, with the possibility of user input.
 
