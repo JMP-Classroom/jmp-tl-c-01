@@ -10,14 +10,17 @@ void test2();
 void test3();
 void test4();
 void test5();
+void test6();
 void print_array_int(int a[], int size);
 
 int main()
 {
     test1();
-    test2();
-    test3();
-    test4();
+    // test2();
+    // test3();
+    // test4();
+    // test5();
+    // test6();
 }
 
 
@@ -51,8 +54,8 @@ void test3()
 
     for (int i = 0; i < 5; i++)
     {
-        // printf("%p | %p\n", &arr_num[i], &arr_ch[i]);
-        printf("%u | %u\n", &arr_num[i], &arr_ch[i]);
+        printf("%p | %p\n", &arr_num[i], &arr_ch[i]);
+        // printf("%u | %u\n", &arr_num[i], &arr_ch[i]);
     }
     printf("\n");
 }
@@ -72,10 +75,21 @@ void test4()
 void test5()
 {
     int arr[] = {0x23, 23, -5, 0b11, 31, -90};
+
     printf("%d\n", arr[9]);
-    print_array_int(arr, 12);
+    print_array_int(arr, 10);
     printf("\n");
 }
+
+void test6()
+{
+    char str[] = "Hello"; // {'H', 'e', 'l', 'l', 'o', '\0'};
+
+    printf("%c\n", str[1]);
+
+}
+
+
 
 // =========================================================
 void print_array_int(int a[], int size)
