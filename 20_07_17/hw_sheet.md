@@ -1,4 +1,5 @@
 # Homework 20_07_17
+
 ## JMP TechLive, C Programming
 
 **Individual Deadline:** *Wen 22th 07 2020 - at 11:59*.
@@ -6,6 +7,46 @@
 **Teamwork Deadline:** *Wen 22th 07 2020 - at 23:59*.
 
 **PS**: You should provide a test program which include the `main` function to test your functions, with the possibility of user input.
+
+### Submission Guide
+
+You must Return your solution in the following format for each exercise. The file must be named as follows: `hw-YY.MM.DD-FUNCTION_NAME.c` ie: `hw-20.07.17-jm_arrint_max.c` (*All characters in lowercase separated by underscore '`_`'* )
+
+*Replace `@xbluecode` by your Github username*. In case of teamwork submission, then replace it with `@teamwork`
+
+```c
+// Homework By @xbluecode
+
+// include libraries
+#include <stdio.h>
+
+// function prototypes
+int jm_arrint_max(int arr[], int size);
+
+int main()
+{
+    int arr1[5] = {2, 3, 8, 0, 2};
+    int arr2[7] = {3, 3, 6, 7, 1, 2, 0};
+    // arr2, arr3, ...
+
+    res1 = jm_arrint_max(arr1, 5);
+    // print result 1 in appropriate format.
+
+    res2 = jm_arrint_max(arr1, 7);
+    // print result 2 in appropriate format.
+
+    // do more input examples in the same way
+
+}
+
+int jm_arrint_max()
+{
+    // Write your logic here!
+}
+
+```
+
+### Exercises
 
 ****
 
