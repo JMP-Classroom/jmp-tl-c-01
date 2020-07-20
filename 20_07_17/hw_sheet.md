@@ -117,9 +117,12 @@ Write a function to check if `arr1` and `arr2` are equals.
 
 ****
 
-. `void jm_arrint_rot(int arr[], int size, int shift)`
+. `void jm_arrint_rot(int arr[], int size, int shift, int dir)`
 
-Write a function to rotate the array `arr` by the given shift.
+Write a function to rotate the array `arr` by the given shift and direction `dir`.
+
+- (**dir: 0**) - Left rotation.
+- (**dir: 1**) - Right rotation.
 
 ****
 
@@ -135,4 +138,9 @@ Write a function to insert the element of value `val` the index `id` in the arra
 
 ****
 
+. `void jm_arrint_print_unique(int arr[], int size)`
+
+Write a function to print all unique elements in the array `arr`.
+
+****
 by [@xBlueCode](https://github.com/xBlueCode).
