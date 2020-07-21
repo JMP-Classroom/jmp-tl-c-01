@@ -86,7 +86,7 @@ Write a function which takes an array of integers, its size and an integers `n`,
 
 . `int jm_arrint_sum(int arr[], int size)`
 
-Write a function which takes an array of integers and return the average of its elements.
+Write a function which takes an array of integers and return the sum of its elements.
 
 ****
 
