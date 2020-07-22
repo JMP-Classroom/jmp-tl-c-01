@@ -10,7 +10,7 @@
 
 ### Submission Guide
 
-You must Return your solution in the following format for each exercise. The file must be named as follows: `hw-YY.MM.DD-FUNCTION_NAME.c` ie: `hw-20.07.17-jm_arrint_max.c` (*All characters in lowercase separated by underscore '`_`'* )
+You must Return your solution in the following format for each exercise. The file must be named as follows: `FUNCTION_NAME.c` ie: `jm_arrint_max.c` (*All characters in lowercase separated by underscore '`_`'* )
 
 *Replace `@xbluecode` by your Github username*. In case of teamwork submission, then replace it with `@teamwork`
 
