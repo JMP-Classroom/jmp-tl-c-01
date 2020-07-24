@@ -5,19 +5,12 @@ void jm_arrint_rot(int arr[], int size, int shift, int dir);
 
 // test
 int main() {
-    int s, dir, shift;
-    printf("Size of array : ");
-    scanf("%d", &s);
-    printf("direction (<0/1>) ~~> ");
-    scanf("%d", &dir);
-    printf("Shift ~~> ");
-    scanf("%d", &shift);
-    int a[s];
-    for (int i = 0; i < s; i++) {
-        printf("valeu of case %d : ", i + 1);
-        scanf("%d", &a[i]);
-    }
-    jm_arrint_rot(a, s, shift, dir);
+    const int size = 9;
+    int dir = 1;
+    int shift = -1;
+    int arr[] = {0, 1, 2, 3, 4, 5, 6, 7, 8};
+
+    jm_arrint_rot(arr, size, shift, dir);
     return 0;
 }
 
@@ -28,8 +21,25 @@ void jm_arrint_rot(int arr[], int size, int shift, int dir) {
     for (int i = 0; i < size; i++)
         printf("%d | ", arr[i]);
     printf("\n");
-
+    
     int temp;
+    /*
+    for (int i = 0; i < size; i++)
+    {
+        temp = arr[size - 1 - i];
+        arr[size - 1 - i] = arr[size - 1 -(i + shift*dir) % size];
+        arr[size -1 -(i + shift*dir) % size] = temp;
+    }
+    */
+    if (shift < 0 && dir == 1) {
+        dir = 0;
+        shift *= -1;
+    }
+    else if (shift < 0 && dir == 0) {
+        dir = 1;
+        shift *= -1;
+    }
+
     if (!dir) {
         temp = arr[0];
         for (int i = 0; i < shift; i++) {
@@ -50,6 +60,7 @@ void jm_arrint_rot(int arr[], int size, int shift, int dir) {
             temp = arr[size - 1];
         }
     }
+    
     // end print
     for (int i = 0; i < size; i++)
         printf("%d | ", arr[i]);

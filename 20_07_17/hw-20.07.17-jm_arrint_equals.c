@@ -1,28 +1,19 @@
 #include<stdio.h>
-typedef enum boolian {false = 0, true} bool;
 
 // function
 int jm_arrint_equals(int arr1[], int size1, int arr2[], int size2);
 
 // test
 int main() {
-    int s1, s2;
-    printf("Array 1 ~~> Size of array : ");
-    scanf("%d", &s1);
-    int a1[s1];
-    for (int i = 0; i < s1; i++) {
-        printf("Array 1 ~~> valeu of case %d : ", i + 1);
-        scanf("%d", &a1[i]);
-    }
-    printf("Array 2 ~~> Size of array : ");
-    scanf("%d", &s2);
-    int a2[s2];
-    for (int i = 0; i < s2; i++) {
-        printf("Array 2 ~~> valeu of case %d : ", i + 1);
-        scanf("%d", &a2[i]);
-    }
-    bool equal = jm_arrint_equals(a1, s1, a2, s2);
-    printf((equal == true) ? "Array 1 and Array 2 are equals! \n" : "Array 1 and Array 2 are not equals! \n" );
+    const int size1 = 3;
+    const int size2 = 5;
+    int arr1[] = {5, 8, 11};
+    int arr2[] = {8, 12, -4, 78, -90};
+    
+    int equal = jm_arrint_equals(arr1, size1, arr2, size2);
+    // ternary expression
+    // printf((condition) ? "true" : "false");
+    printf((equal == 1) ? "Array 1 and Array 2 are equals!\n" : "Array 1 and Array 2 are not equals!\n" );
     return 0;
 }
 

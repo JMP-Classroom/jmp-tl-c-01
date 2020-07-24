@@ -1,39 +1,49 @@
 #include<stdio.h>
 
 // function
-void jm_arrint_rem(int arr[], int size, int id);
+void jm_arrint_rem(char arr[], int size, int id);
+void print_array_int(int arr[], int size);
+
+// test
+// | 5 | 4 | -8 | 3 | 10 |
+// remove index = 3
+// | 5 | 4 | -8 | 10 |
+
+// arr[3] = arr[3 + 1];
+// | 5 | 4 | -8 | 10 | 10 |
+// print array index 0 ~~> size - 1 
+// | 5 | 4 | -8 | 10 |
+
+// for (int i = index; i < size - 1; i++)
+//      arr[i] = arr [i + 1];
 
 // test
 int main() {
-    int s;
-    printf("Size of array : ");
-    scanf("%d", &s);
-    int a[s];
-    for (int i = 0; i < s; i++) {
-        printf("valeu of case %d : ", i + 1);
-        scanf("%d", &a[i]);
-    }
-    int index;
-    printf("Remove valeu from index ~~> ");
-    scanf("%d", &index);
+    const int size = 4;
+    char arr[] = "text";
+    int index = 3;
 
     // before removing
-    for (int i = 0; i < s; i++)
-        printf("%d | ", a[i]);
-    printf("\n");
-
-    jm_arrint_rem(a, s, index);
-
+    printf("%s\n", arr);
+    // remove function
+    jm_arrint_rem(arr, size, index);
     // after removing
-    for (int i = 0; i < s - 1; i++)
-        printf("%d | ", a[i]);
-    printf("\n");
-    return 0;
+    printf("%s\n", arr);
 }
 
 // remove case
-void jm_arrint_rem(int arr[], int size, int id) {
-    for (int i = id; i < size; i++) {
+// | T | E | X | T |
+// | 
+void jm_arrint_rem(char arr[], int size, int id) {
+        for (int i = id; i < size - 1; i++) {
         arr[i] = arr[i+1];
     }
+    arr[size - 1] = '\0';
+}
+
+// print array int
+void print_array_int(int arr[], int size) {
+    for (int i = 0; i < size; i++)
+        printf("%d | ", arr[i]);
+    printf("\n");
 }

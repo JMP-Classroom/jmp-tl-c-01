@@ -1,28 +1,31 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // function
-int jm_arrint_avg(int arr[], int size);
+int jm_arrint_sum(int arr[], int size);
+float jm_arrint_avg(int arr[], int size);
 
 // test
-int main() {
-    int s;
-    printf("Size of array : ");
-    scanf("%d", &s);
-    int a[s];
-    for (int i = 0; i < s; i++) {
-        printf("valeu of case %d : ", i + 1);
-        scanf("%d", &a[i]);
+int main()
+{
+	const int n = 3;
+    int arr[] = {5, 6, 9};
+
+    printf("average of array is : %f\n", jm_arrint_avg(arr, n));
+}
+
+// sum 
+int jm_arrint_sum(int arr[], int size) {
+    int sum = 0;
+    for (int i = 0; i < size; i++) {
+        sum += arr[i];
     }
-    printf("The average of Array elements is : %d \n", jm_arrint_avg(a, s));
-    return 0;
+    return sum;
 }
 
 // average
-int jm_arrint_avg(int arr[], int size) {
-    int average = 0;
-    for (int i = 0; i < size; i++) {
-        average += arr[i];
-    }
-    average /= size;
-    return average;
+float jm_arrint_avg(int arr[], int size) 
+{
+    // we use here temp to convert integer ~~> float
+    float temp = jm_arrint_sum(arr, size);
+    return temp / size;
 }

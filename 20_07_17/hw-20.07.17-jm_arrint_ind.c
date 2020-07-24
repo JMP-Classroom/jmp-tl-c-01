@@ -2,36 +2,21 @@
 
 // function
 void jm_arrint_ind(int arr[], int size, int id, int val);
+void print_array_int(int a[], int size);
 
 // test
 int main() {
-    int s;
-    printf("Size of array : ");
-    scanf("%d", &s);
-    int a[s];
-    for (int i = 0; i < s; i++) {
-        printf("valeu of case %d : ", i + 1);
-        scanf("%d", &a[i]);
-    }
-    int index;
-    printf("Add valeu to index ~~> ");
-    scanf("%d", &index);
-    int valeu;
-    printf("Valeu ~~> ");
-    scanf("%d", &valeu);
+    const int size = 5;
+    int array[] = {3, 15, -9, -7, 100};
+    int index = 3;
+    int valeu = 0;
 
     // before add
-    for (int i = 0; i < s; i++)
-        printf("%d | ", a[i]);
-    printf("\n");
-
-    jm_arrint_ind(a, s, index, valeu);
-
+    print_array_int(array, size);
+    // add valeu
+    jm_arrint_ind(array, size, index, valeu);
     // after add
-    for (int i = 0; i < s; i++)
-        printf("%d | ", a[i]);
-    printf("\n");
-
+    print_array_int(array, size);
     return 0;
 }
 
@@ -41,4 +26,12 @@ void jm_arrint_ind(int arr[], int size, int id, int val) {
         arr[id] = val;
     else
         printf("error \n");
+}
+
+// print
+void print_array_int(int arr[], int size) 
+{
+    for (int i = 0; i < size; i++)
+        printf("%d | ", arr[i]);
+    printf("\n");
 }

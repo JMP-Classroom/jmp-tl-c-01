@@ -5,14 +5,9 @@ int jm_arrint_sum(int arr[], int size);
 
 // test
 int main() {
-    int s;
-    printf("Size of array : ");
-    scanf("%d", &s);
-    int a[s];
-    for (int i = 0; i < s; i++) {
-        printf("valeu of case %d : ", i + 1);
-        scanf("%d", &a[i]);
-    }
+    const int s = 3;
+    int a[3] = {5, 6, 9};
+
     printf("The sum of Array elements is : %d \n", jm_arrint_sum(a, s));
     return 0;
 }
