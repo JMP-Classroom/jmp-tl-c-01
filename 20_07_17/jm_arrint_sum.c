@@ -8,6 +8,7 @@ int jm_arrint_sum(int *, int);
 
 int main() {
     int arr[4] = {6, 4, 21, 9};
+    
     printf("%d\n", jm_arrint_sum(arr, 4));
     return 0;
 }

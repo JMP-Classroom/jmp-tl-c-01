@@ -8,6 +8,7 @@ int jm_arrint_avg(int *, int);
 
 int main() {
     int arr[5] = {1, 2, 3, 4, 5};
+    
     printf("%d\n", jm_arrint_avg(arr, 5));
     return 0;
 }
