@@ -11,6 +11,6 @@ int main() {
 }
 
 void func() {
-  int a;
+  static int a = 7;
   printf("%d\n",++a);
 }

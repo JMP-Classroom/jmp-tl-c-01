@@ -7,13 +7,15 @@ void print_hello(int n)
         printf("hello\n");
 }
 
+long long i;
+
 void print_hello_r(int n)
 {
     if (n <= 0)
     {
         return;
     }
-    printf("hello\n");
+    printf("hello %lld\n", i++);
     print_hello_r(n - 1);
 }
 

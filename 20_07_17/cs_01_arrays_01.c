@@ -15,12 +15,12 @@ void print_array_int(int a[], int size);
 
 int main()
 {
-    test1();
+    // test1();
     // test2();
     // test3();
     // test4();
     // test5();
-    // test6();
+    test6();
 }
 
 
@@ -63,8 +63,8 @@ void test3()
 // =========================================================
 void test4()
 {
-    int arr[] = {0x23, 23, -5, 0b11, 31, -90};
-    arr[2] = 500;
+    int arr[] = {0x23, 23, -5, 0b11, 11, -90};
+    arr[2] = 400;
     arr[5] = -990;
     print_array_int(arr, 6);
     printf("\n");

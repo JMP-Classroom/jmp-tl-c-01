@@ -23,7 +23,7 @@ int main()
 
     int res = add(x, y);
     printf("res: %d\n", res);
-    res = add(res, x++); // res = add(res, x); x = x + 1;
+    res = add(res, ++x); // res = add(res, x); x = x + 1;
     printf("res: %d\n", res);
     printf("x= %d\n", x);
 }
