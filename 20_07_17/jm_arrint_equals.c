@@ -13,6 +13,7 @@ int main() {
     return 0;
 }
 
+// The should compare between elements not sums
 int jm_arrint_equals(int arr1[], int size1, int arr2[], int size2){
     int temp_arr1_sum = 0;
     int temp_arr2_sum = 0;

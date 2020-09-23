@@ -18,6 +18,7 @@ int main () {
     return 0;
 }
 
+// True but it does more operations
 int jm_arrint_merge(int arr1[], int arr2[], int arr3[], int size1, int size2) {
     for (int i = 0; i < size1 + size2; i++)
         arr3[i] = (i < size1) ? arr1[i] : arr2[i - size1];

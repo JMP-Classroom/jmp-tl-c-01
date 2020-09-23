@@ -13,6 +13,9 @@ int main() {
     return 0;
 }
 
+/*
+the func must handle when size=0 or negative
+*/
 int jm_arrint_avg(int arr[], int size) {
     int temp_avg = 0;
     for (int i = 0; i < size; i++)

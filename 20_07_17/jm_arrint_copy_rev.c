@@ -18,6 +18,7 @@ int main () {
     return 0;
 }
 
+// this return void
 int jm_arrint_copy_rev(int arr1[], int arr2[], int size) {
     for (int i = size - 1; i >= 0; i--)
         arr2[size - 1 -i] = arr1[i];

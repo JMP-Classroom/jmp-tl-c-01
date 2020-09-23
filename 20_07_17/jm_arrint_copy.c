@@ -18,6 +18,7 @@ int main () {
     return 0;
 }
 
+// func returns void
 int jm_arrint_copy(int arr1[], int arr2[], int size) {
     for (int i = 0; i < size; i++)
         arr2[i] = arr1[i];

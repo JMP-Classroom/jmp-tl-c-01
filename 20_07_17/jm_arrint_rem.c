@@ -13,6 +13,7 @@ int main () {
     return 0;
 }
 
+// The func remove from the array not printing
 void jm_arrint_rem(int arr[], int size, int id) {
     for (int i = 0; i < size; i++) {
         printf((i == id) ? "%c\b": "%d " , (i == id) ? ' ' : arr[i]);

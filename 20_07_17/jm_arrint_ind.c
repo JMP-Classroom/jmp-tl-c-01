@@ -12,6 +12,7 @@ int main() {
     return 0;
 }
 
+// The func must insert not replace
 void jm_arrint_ind(int arr[], int size, int id, int val) {
     arr[id] = val;
     for (int i = 0; i < size; i++)

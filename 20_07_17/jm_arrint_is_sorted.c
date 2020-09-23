@@ -13,6 +13,7 @@ int main() {
     return 0;
 }
 
+// You need to use else-if for better performance (ask why)
 int jm_arrint_is_sorted(int arr[], int size, int order) {
     for (int i = 1; i < size; i++) {
         if (!order && arr[i-1] > arr[i])

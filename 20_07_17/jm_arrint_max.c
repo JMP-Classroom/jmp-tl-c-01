@@ -13,7 +13,7 @@ int main() {
     return 0;
 }
 
-
+// Check the naming
 int jm_arrint_max(int arr[], int size) {
     int temp_min = arr[0];
     for (int i = 1; i < size; i++)
