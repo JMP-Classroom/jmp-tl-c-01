@@ -1,7 +1,9 @@
 // include libraries
-#include "jm_arrint_sort.c"
+#include <stdio.h>
 
 // Function prototypes
+void jm_arrint_sort(int arr[], int size, int order);
+
 int main () {
     int test_arr1[5] = {2, 435, 9, 13, 3};
     int test_arr2[4] = {-56, 15, 489, 0};

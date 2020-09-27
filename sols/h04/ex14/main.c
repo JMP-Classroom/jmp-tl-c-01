@@ -1,8 +1,9 @@
 // include libraries
 #include<stdio.h>
-#include "jm_arrint_equals.c"
 
 // Function prototypes
+int jm_arrint_equals(int arr1[], int size1, int arr2[], int size2);
+
 int main() {
     int arr1[5] = {1, 1, 4, 3, 2};
     int arr2[5] = {1, 1, 4, 3, 2};

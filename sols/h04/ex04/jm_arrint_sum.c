@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /*
 Write a function which takes an array of integers
 and return the sum of its elements.

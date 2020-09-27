@@ -1,6 +1,7 @@
 // include libraries
 #include<stdio.h>
-#include "jm_arrint_copy.c"
+
+int jm_arrint_copy(int arr1[], int arr2[], int size);
 
 int main () {
     int arr1[4] = {26, 4, 489, 7};

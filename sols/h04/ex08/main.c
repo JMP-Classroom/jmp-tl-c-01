@@ -1,8 +1,9 @@
 // include libraries
 #include<stdio.h>
-#include "jm_arrint_mid.c"
 
 // Function prototypes
+int jm_arrint_mid(int arr[], int size);
+
 int main () {
     int arr[4] = {2, 6, 15, 20};
     

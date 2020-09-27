@@ -1,7 +1,9 @@
 // include libraries
-#include "jm_arrint_rot.c"
+#include <stdio.h>
 
 // Function prototypes
+void jm_arrint_rot(int arr[], int size, int shift, int dir);
+
 int main() {
     int arr[5] = {1, 2, 3, 4, 5};
 

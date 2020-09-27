@@ -1,9 +1,8 @@
 // include libraries
 #include<stdio.h>
-#include "jm_arrint_merge.c"
 
 // Function prototypes
-int jm_arrint_merge(int *, int *, int *, int, int);
+int jm_arrint_merge(int arr1[], int arr2[], int arr3[], int size1, int size2);
 
 int main () {
     int arr1[3] = {1, 2, 3};

@@ -1,7 +1,9 @@
 // include libraries
-#include "jm_arrint_print_unique.c"
+#include <stdio.h>
 
 // Function prototypes
+void jm_arrint_print_unique(int arr[], int size);
+
 int main() {
     int test_arr1[4] = {1, 1, 15, 4};
     int test_arr2[5] = {5, 6, 4, 8, 9};

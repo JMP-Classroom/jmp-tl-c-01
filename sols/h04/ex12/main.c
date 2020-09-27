@@ -1,8 +1,9 @@
 // include libraries
 #include<stdio.h>
-#include "jm_arrint_is_sorted.c"
 
 // Function prototypes
+int jm_arrint_is_sorted(int arr[], int size, int order);
+
 int main() {
     int arr[5] = {1, 2, 3, 4 ,5};
     int arr2[3] = {3, 2, 1};

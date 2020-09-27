@@ -1,7 +1,9 @@
 // include libraries
-#include "jm_arrint_search.c"
+#include <stdio.h>
 
 // Function prototypes
+int jm_arrint_search(int arr[], int size, int n);
+
 int main () {
     int arr[5] = {3, 5, 8, 12, 48};
     

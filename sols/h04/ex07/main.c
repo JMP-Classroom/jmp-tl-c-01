@@ -1,9 +1,9 @@
 // include libraries
 #include<stdio.h>
-#include "jm_arrint_max.c"
 
 
 // Function prototypes
+int jm_arrint_max(int arr[], int size);
 
 int main() {
     int test_arr1[4] = {1, 2, -3, 4};

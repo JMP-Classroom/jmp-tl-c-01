@@ -1,7 +1,8 @@
 // include libraries
-#include "jm_arrint_print.c"
+#include <stdio.h>
 
 // Function prototypes
+void jm_arrint_print(int a[], int size);
 
 int main() {
     int test_arr1[4] = {25, -21, 450, -97};

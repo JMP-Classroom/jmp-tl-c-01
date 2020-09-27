@@ -1,7 +1,9 @@
 // include libraries
-#include "jm_arrint_sum.c"
+#include <stdio.h>
 
 // Function prototypes
+int jm_arrint_sum(int arr[], int size);
+
 int main() {
     int arr[4] = {6, 4, 21, 9};
     

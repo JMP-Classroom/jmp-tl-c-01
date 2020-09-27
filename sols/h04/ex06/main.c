@@ -1,8 +1,9 @@
 // include libraries
 #include<stdio.h>
-#include "jm_arrint_min.c"
 
 // Function prototypes
+int jm_arrint_min(int arr[], int size);
+
 int main() {
     int arr[4] = {1, 2, -3, 4};
 
