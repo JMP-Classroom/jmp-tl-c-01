@@ -15,13 +15,13 @@ void mixin_init()
 
     int mtx2[2][3] = {1, 5, 7, 3, 9, 8};
 
-    printf("%d\n", mtx1[1][0]);
+    printf("%d\n", mtx1[0][4]);
 
-    printf("MTX 1\n------\n");
-    print_mtx_int(mtx1, 2, 3);
+    // printf("MTX 1\n------\n");
+    // print_mtx_int(mtx1, 2, 3);
 
-    printf("\nMTX 2\n------\n");
-    print_mtx_int(mtx2, 2, 3);
+    // printf("\nMTX 2\n------\n");
+    // print_mtx_int(mtx2, 2, 3);
 }
 
 
