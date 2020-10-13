@@ -1,6 +1,6 @@
 # Problem Set PS-05
 
-## JMP TechLive, C Programming (2D/nD Arrays)
+## JMP TechLive, C Programming (nD Arrays / Pointers)
 
 ### Notes
 
@@ -49,3 +49,9 @@ The `shape` prameter is an array of size `2`, where the first element (`shape[0]
 .Write a function that checks if the array is a magic square. This means that it must be square, and that all row sums, all column sums, and the two diagonal-sums must all be equal.
 
 `int jm_mtxint_is_magic(int** a, int shape[2])`
+
+-----
+
+. Write a function that takes the address of two integers and swap their values
+
+`void jm_int_swap(int *n1, int *n2)`
