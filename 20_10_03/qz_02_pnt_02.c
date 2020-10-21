@@ -9,6 +9,7 @@ int main()
         {73, 82, 91}
         };
     
+    int *line =  mtx[1];
     int n = *(*(mtx + 1) + 2);
 
     printf("n: %d\n",  n);
